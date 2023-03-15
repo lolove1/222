@@ -13,7 +13,7 @@ import time
 import random
 from urllib import parse
 import re
-import wxPusher
+#import wxPusher
 class WXYD:
     def __init__(self, cg):
         self.cg = cg
@@ -158,6 +158,6 @@ if __name__ == '__main__':
     ucg = [
         {'unionid': 'non61f8f17a6fbea89843ab1925701c8bf7'},{'unionid': 'nonbe6121d3799d1919e09d3015ce24a8b4'},
     ]
-    for cg in ucg:
-        api = WXYD(cg)
+#    for cg in ucg:
+#        api = WXYD(cg)
         api.run()

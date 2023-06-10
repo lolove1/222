@@ -20,14 +20,14 @@ def mt_sign_example(js, cookie: str):
     with requests.session() as session:
         session.headers = {
             "dj-token": "",
-            "User-Agent": "Mozilla/5.0 (Linux; U; Android 12; zh-cn; Mi 10 Pro Build/SKQ1.220213.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/17.6.100509 swan-mibrowser",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 9; MI 8 Lite Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5075 MMWEBSDK/20221206 MMWEBID/3766 MicroMessenger/8.0.32.2300(0x2800205D) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android",
             "Content-Type": "application/json",
             "X-Requested-With": "com.sankuai.meituan",
             "Sec-Fetch-Site": "same-site",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Dest": "empty",
             "Referer": "https://market.waimai.meituan.com/",
-            "Cookie": _lxsdk_cuid=188a5e3c56e12-0f9bdb58783203-d486212-4fa2e-188a5e3c577ad
+            "Cookie": "_lxsdk_cuid=188a5e3c56e12-0f9bdb58783203-d486212-4fa2e-188a5e3c577ad"
         }
         url = 'https://promotion.waimai.meituan.com/lottery/limitcouponcomponent/fetchcoupon?couponReferId=DBFA760914E34AFF9D8B158A7BC4D706&actualLng=113.62493&actualLat=34.74725&geoType=2&gdPageId=306477&pageId=306004&version=1&utmSource=&utmCampaign=&instanceId=16620226080900.11717750606071209&componentId=16620226080900.11717750606071209'
         # data = {"cType": "mtandroid", "fpPlatform": 4, "wxOpenId": "", "appVersion": "12.9.404"}
@@ -61,14 +61,14 @@ cookie = ''
 js = execjs.compile(js_code)
 headers = {
             "dj-token": "",
-            "User-Agent": "Mozilla/5.0 (Linux; U; Android 12; zh-cn; Mi 10 Pro Build/SKQ1.220213.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/17.6.100509 swan-mibrowser",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 9; MI 8 Lite Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5075 MMWEBSDK/20221206 MMWEBID/3766 MicroMessenger/8.0.32.2300(0x2800205D) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android",
             "Content-Type": "application/json",
             "X-Requested-With": "com.sankuai.meituan",
             "Sec-Fetch-Site": "same-site",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Dest": "empty",
             "Referer": "https://market.waimai.meituan.com/",
-            "Cookie": _lxsdk_cuid=188a5e3c56e12-0f9bdb58783203-d486212-4fa2e-188a5e3c577ad
+            "Cookie": "_lxsdk_cuid=188a5e3c56e12-0f9bdb58783203-d486212-4fa2e-188a5e3c577ad"
         }
 # qq = mt_sign_example(js, cookie)
 req = {

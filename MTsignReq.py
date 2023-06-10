@@ -61,14 +61,14 @@ cookie = ''
 js = execjs.compile(js_code)
 headers = {
             "dj-token": "",
-            "User-Agent": "Mozilla/5.0 (Linux; U; Android 12; zh-cn; Mi 10 Pro Build/SKQ1.220213.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/17.6.100509 swan-mibrowser",
+            "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/114.0.5735.99 Mobile/15E148 Safari/604.1",
             "Content-Type": "application/json",
             "X-Requested-With": "com.sankuai.meituan",
             "Sec-Fetch-Site": "same-site",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Dest": "empty",
             "Referer": "https://market.waimai.meituan.com/",
-            "Cookie": cookie
+            "Cookie": _lxsdk_s=188a3063ad4-4fe-f1-f19%7C%7C9
         }
 # qq = mt_sign_example(js, cookie)
 req = {

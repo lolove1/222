@@ -27,7 +27,7 @@ def mt_sign_example(js, cookie: str):
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Dest": "empty",
             "Referer": "https://market.waimai.meituan.com/",
-            "Cookie": cookie
+            "Cookie": _lxsdk_s=188a3063ad4-4fe-f1-f19%7C%7C9
         }
         url = 'https://promotion.waimai.meituan.com/lottery/limitcouponcomponent/fetchcoupon?couponReferId=DBFA760914E34AFF9D8B158A7BC4D706&actualLng=113.62493&actualLat=34.74725&geoType=2&gdPageId=306477&pageId=306004&version=1&utmSource=&utmCampaign=&instanceId=16620226080900.11717750606071209&componentId=16620226080900.11717750606071209'
         # data = {"cType": "mtandroid", "fpPlatform": 4, "wxOpenId": "", "appVersion": "12.9.404"}

@@ -19,7 +19,7 @@ def mt_getMTFingerprint_example(js):
 def mt_sign_example(js, cookie: str):
     with requests.session() as session:
         session.headers = {
-            "dj-token": "",
+            "dj-token": "AgFcJFqAgSUVrTZW1B7SlgL57w0QF89ZD-XvT3sFMf5baRNYq0gBdwP82OD0rCuptDKL5_u0A90lSAAAAADJGAAA5moZ-tbmqLDoc3EzOYoG53PGGXLLmiWDh5CWu5aaDzU-GHfwuxaDftmm3XAYJB77",
             "User-Agent": "Mozilla/5.0 (Linux; Android 9; MI 8 Lite Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5075 MMWEBSDK/20221206 MMWEBID/3766 MicroMessenger/8.0.32.2300(0x2800205D) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android",
             "Content-Type": "application/json",
             "X-Requested-With": "com.sankuai.meituan",
@@ -60,7 +60,7 @@ data = {"cType": "mtandroid", "fpPlatform": 4, "wxOpenId": "", "appVersion": "12
 cookie = ''
 js = execjs.compile(js_code)
 headers = {
-            "dj-token": "",
+            "dj-token": "AgFcJFqAgSUVrTZW1B7SlgL57w0QF89ZD-XvT3sFMf5baRNYq0gBdwP82OD0rCuptDKL5_u0A90lSAAAAADJGAAA5moZ-tbmqLDoc3EzOYoG53PGGXLLmiWDh5CWu5aaDzU-GHfwuxaDftmm3XAYJB77",
             "User-Agent": "Mozilla/5.0 (Linux; Android 9; MI 8 Lite Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5075 MMWEBSDK/20221206 MMWEBID/3766 MicroMessenger/8.0.32.2300(0x2800205D) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android",
             "Content-Type": "application/json",
             "X-Requested-With": "com.sankuai.meituan",

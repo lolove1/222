@@ -14,7 +14,7 @@ from datetime import datetime
 
 import requests
 
-app_ua = ''  # 用app的ua，不填也能跑
+app_ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.41(0x1800292e) NetType/4G Language/zh_CN'  # 用app的ua，不填也能跑
 
 user_cookie = os.getenv("ccdck")
 

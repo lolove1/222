@@ -108,6 +108,6 @@ class Xmly(object):
 
 if __name__ == '__main__':
     cookie = ''
-    xm = Xmly(cookie)
+    xm = Xmly(1&_device=iPhone&1B5C2B30-E0E7-4898-A6DA-2B4E2CE89D9C&9.1.78; 1&_token=257653107&EDA68460240CA205DD528182718AA26F7922936F54BED1EEBC6AB56F1FD8256E71F6608E0D5253M5076BE9CD94A14A_)
     xm.ad_video_finish()
     xm.common_tasks()

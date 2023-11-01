@@ -19,12 +19,12 @@ import requests
 phone = '18638363194'  # 手机号
 user_id = 'YSM202202244788094'  # userid 或着memberid
 token = 'SCUyRjlMTUdMME5LT21hNkRHcG11bkVyJTJCWDRGV1dyTGFVenRYbW1UNEV6bkUlM0Q6MU5uVnBJYzRwNSUyRlhYJTJGckp4eWJsUDJQUmglMkY5VU1ZQ1RqSGhyNWlLdFllUSUzRA'
-deviceid = '93C424F7-F7B7-4694-981D-B4A90FDD18AA'
+deviceid = '7D345706-89AA-4826-8497-EAECA4A5C567'
 appversion = '2.1.5.002'
 
 headers = {
     'clientinfo': '',
-    'user-agent': '%E5%BB%BA%E8%A1%8C%E7%94%9F%E6%B4%BB/2023031502 CFNetwork/1220.1 Darwin/20.3.0',
+    'user-agent': '%E5%BB%BA%E8%A1%8C%E7%94%9F%E6%B4%BB/2023082202 CFNetwork/1333.0.4 Darwin/21.5.0',
     'devicetype': 'iOS',
     'mbc-user-agent': f'MBCLOUDCCB/iPhone/iOS14.4.2/{appversion}/{appversion}/0/chinamworld/750*1334/{appversion}/1.0//iPad13,1/iOS/iOS14.4.2',
     'appversion': appversion,

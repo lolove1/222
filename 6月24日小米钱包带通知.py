@@ -312,10 +312,10 @@ if __name__ == "__main__":
             'passToken': 'V1:pwROAesIuzMBPe5slLSsQq9JqH6qiUJsqu1H6E1gtYGoVDDfRMVxp54NsqEK1GD4TBGhGOUe+EyLv21Qh165IHsETSTsvK5PUvqiC6T8ftAQ86BIk0R1ooDE4ChsamlC4iQVvJyLrhCxqHXLbXepxrx5dJlt9ExVPIpiYaT5LCZ4MruEwX6P1Y3zr6qwXvdHF00FBoIGQdluKuf1TgXM4spJKbWB4DkSludfhJST8yK3IUGj0/jc9O36N6n0/eGk5ZEKQzGB4TE8HUzc2XUJvDvgH3T7HftNp1mFItQEfqbIipyP59CPwiDMbktdj+Lm1NfApMgsN4pSZsEPMUG1FQ==',
             'userId': '140914621'
         },
-        {   # 账号2
-            'passToken': 'xxxxxxxxxx',
-            'userId': 'xxxxxxxxx'
-        }
+      #  {   # 账号2
+      #     'passToken': 'xxxxxxxxxx',
+      #      'userId': 'xxxxxxxxx'
+      #  }
         # 可继续添加更多账号...
     ]
     # 结束配置 ######################################

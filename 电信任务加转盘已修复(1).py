@@ -1,5 +1,5 @@
 # 自己设置电信的服务密码和 AndroidID, 把 手机号#服务密码#AndroidID 填到变量里, 多账号换行或&隔开:
-export chinaTelecomAccount="18638363194#521314#079bf463c82ce200"&"17337901121#521314#079bf463c82ce200"
+# export chinaTelecomAccount="18638363194#521314#079bf463c82ce200"&"17337901121#521314#079bf463c82ce200"
 # AndroidID获取:
 # https://telecom.nufe.ccwu.cc
 
